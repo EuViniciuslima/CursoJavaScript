@@ -1,6 +1,6 @@
 # CursoJavaScript
 
-Curso ministrado pelo Gustavo Guanabara do CursoEmVideo no Youtube.
+Course taught by Gustavo Guarnabara from the "CursoEmVideo" on Youtube. 
 
-* Exercicio01:
-  É uma criação de uma mini projeto cujo a sua funcionalidade é mostrar imagens, assim como a mudança de cor do background e horários pela própria hora atual do computador.
+* Exercise - 01:
+  It's a creation of a small project, whose functionality is to show images, as well as chaging the background color at times by the computer's current time.
