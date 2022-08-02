@@ -10,8 +10,8 @@ function loading() {
         var fsex = document.getElementsByName('radsex')        //CALCULO DE IDADE
         var age = year - Number(fyear.value)
         var genero = ''
-        var img = document.createElement('img')
-        img.setAttribute('id', 'foto')
+        var img = document.createElement('img') // CRIAR DINAMICAMENTE IMAGENS CHAMADAS PELAS CONDIÇÕES DA FUNÇÃO
+        img.setAttribute('id', 'foto') // CRIANDO UM ID
 
         if (fsex[0].checked) {      //VERIFICAÇÃO DA CAIXA DE PREENCHIMENTO MARCADA NO HTML
             genero = 'Men'
