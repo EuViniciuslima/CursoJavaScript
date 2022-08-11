@@ -1,0 +1,26 @@
+body {
+    background: rgba(137, 43, 226, 0.233);
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    background-color: blanchedalmond;
+    padding: 20px;
+    margin-bottom: auto;
+    border-radius: 10px;
+}
+
+select {
+    margin-top: 0.5rem;
+    
+}
+select#lista {
+    width: 177px;
+}
+
+input#botao {
+    margin-top: 0.5rem;
+}
