@@ -1,5 +1,5 @@
 body {
-    background: rgba(137, 43, 226, 0.233);
+    background: rgba(15, 45, 219, 0.651);
 }
 
 h1 {
@@ -7,7 +7,7 @@ h1 {
 }
 
 section {
-    background-color: blanchedalmond;
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     margin-bottom: auto;
     border-radius: 10px;

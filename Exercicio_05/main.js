@@ -39,23 +39,25 @@ function finalizador() {
     window.alert("Adicione alguns números a sua lista!");
   } else {
     let total = vet.length;
-    let soma = 0;
-    for (let i = 0; i < vet.length; i++) {
-      soma += vet[i];
-    }
-
-    let maior = vet.lastIndexOf(-1);
+    let maior = vet[0];
     let menor = vet[0];
+    let soma = 0;
+    let media = 0;
     for (let pos in vet) {
+      soma += vet[pos];
+      media += vet[pos] / 2;
       if (vet[pos] > maior) {
         maior = vet[pos];
-      } else if (vet[pos] < menor) {
+      }
+      if (vet[pos] < menor) {
         menor = vet[pos];
       }
     }
+
     res.innerHTML += `<p>No total temos ${total} números cadastrados</p>`;
-    res.innerHTMl += `<p>O maior número informado é ${maior}</p>`;
+    res.innerHTML += `<p>O maior número informado é ${maior}</p>`;
     res.innerHTML += `<p>O menor número informado é ${menor}</p>`;
     res.innerHTML += `<p>A soma de todos os  números é ${soma}</p>`;
+    res.innerHTML += `<p>A média é${media}.</p>`;
   }
 }
