@@ -39,7 +39,12 @@ function finalizador() {
     window.alert("Adicione alguns números a sua lista!");
   } else {
     let total = vet.length;
-    let maior = vet[0];
+    let soma = 0;
+    for (let i = 0; i < vet.length; i++) {
+      soma += vet[i];
+    }
+
+    let maior = vet.lastIndexOf(-1);
     let menor = vet[0];
     for (let pos in vet) {
       if (vet[pos] > maior) {
@@ -48,8 +53,9 @@ function finalizador() {
         menor = vet[pos];
       }
     }
-    res.innerHTML += `No total temos ${total} números cadastrados`;
-    res.innerHTMl += `O maior número informado é ${maior}`;
-    res.innerHTML += `O menor número informado é ${menor}`;
+    res.innerHTML += `<p>No total temos ${total} números cadastrados</p>`;
+    res.innerHTMl += `<p>O maior número informado é ${maior}</p>`;
+    res.innerHTML += `<p>O menor número informado é ${menor}</p>`;
+    res.innerHTML += `<p>A soma de todos os  números é ${soma}</p>`;
   }
 }
