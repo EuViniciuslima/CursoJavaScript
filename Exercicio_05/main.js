@@ -54,10 +54,10 @@ function finalizador() {
       }
     }
 
-    res.innerHTML += `<p>No total temos ${total} números cadastrados</p>`;
-    res.innerHTML += `<p>O maior número informado é ${maior}</p>`;
-    res.innerHTML += `<p>O menor número informado é ${menor}</p>`;
-    res.innerHTML += `<p>A soma de todos os  números é ${soma}</p>`;
+    res.innerHTML += `<p>No total temos ${total} números cadastrados.</p>`;
+    res.innerHTML += `<p>O maior número informado é ${maior}.</p>`;
+    res.innerHTML += `<p>O menor número informado é ${menor}.</p>`;
+    res.innerHTML += `<p>A soma de todos os  números é ${soma}.</p>`;
     res.innerHTML += `<p>A média é${media}.</p>`;
   }
 }
